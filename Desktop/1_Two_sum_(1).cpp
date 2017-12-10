@@ -1,3 +1,9 @@
+/*
+方法：暴力破解，循环两次数组
+时间复杂度：O(n^2)
+耗时：186ms
+*/
+
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
@@ -8,6 +14,6 @@ public:
                 }
             }
         }
-        return {};
+        return {}; //若找不到符合条件的元素则返回空vector
     }
 };
